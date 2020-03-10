@@ -1,0 +1,65 @@
+body {
+    background-image: url(../images/background-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: 'Anton', sans-serif!important;
+    color: white!important;
+
+}
+
+/* top of page */
+    #title {
+        text-align: center;
+        margin: 20px auto;
+        border-color: black;
+        letter-spacing: 6px;
+        font-size: 80px;
+        text-shadow: rgb(216, 57, 155) 10px 10px 5px;
+    }
+
+    #instructions {
+        text-align: center;
+        margin: 20px auto 40px auto;
+        font-size: 40px;
+        text-shadow: rgb(2, 180, 211) 5px 5px 5px;
+    }
+
+/* left column content */
+    #left-col {
+        margin: 10px;
+        height: 320px;
+        background: rgb(216, 57, 155, 0.5);
+        border-radius: 5px;
+        padding-top: 20px;
+    }
+
+    #letter-btns {
+        padding: 15px;
+    }
+
+
+/* right column content */
+    #right-col {
+        margin: 10px;
+        height: 320px;
+        background: rgb(2, 180, 211, 0.5);
+        border-radius: 5px;
+        padding-top: 20px;
+    }
+
+
+/* play button */
+    #play-btn {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .btn-primary {
+        background-color: white!important;
+        color: rgb(216, 57, 155);
+        border: none;
+    }
+    .btn-primary:hover {
+        color: rgb(2, 180, 211);
+    }
