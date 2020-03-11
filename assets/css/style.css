@@ -8,6 +8,7 @@ body {
 
 }
 
+
 /* top of page */
     #title {
         text-align: center;
@@ -20,39 +21,16 @@ body {
 
     #instructions {
         text-align: center;
-        margin: 20px auto 40px auto;
+        margin: 0px auto 20px auto;
         font-size: 40px;
         text-shadow: rgb(2, 180, 211) 5px 5px 5px;
-    }
-
-/* left column content */
-    #left-col {
-        margin: 10px;
-        height: 320px;
-        background: rgb(216, 57, 155, 0.5);
-        border-radius: 5px;
-        padding-top: 20px;
-    }
-
-    #letter-btns {
-        padding: 15px;
-    }
-
-
-/* right column content */
-    #right-col {
-        margin: 10px;
-        height: 320px;
-        background: rgb(2, 180, 211, 0.5);
-        border-radius: 5px;
-        padding-top: 20px;
     }
 
 
 /* play button */
     #play-btn {
-        margin-top: 30px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .btn-primary {
@@ -62,4 +40,106 @@ body {
     }
     .btn-primary:hover {
         color: rgb(2, 180, 211);
+    }
+
+    .btn-primary:focus, .btn-primary:active {
+        outline: none!important;
+        box-shadow: none;
+        color: rgb(2, 180, 211);
+    }
+
+/* top column content */
+    #top-col {
+        text-align: center;
+        margin: 10px;
+        height: auto;
+        background: rgb(2, 180, 211, 0.5);
+        border-radius: 5px;
+        padding: 20px 0 10px 0;
+    }
+
+    #category {
+        font-size: 24px;
+    }
+
+    #hidden-word {
+        font-size: 24px;
+        letter-spacing: 6px;
+    }
+
+
+
+/* bottom column content */
+    #bottom-col {
+        margin: 10px;
+        height: auto;
+        background: rgb(216, 57, 155, 0.5);
+        border-radius: 5px;
+        padding-top: 20px;
+    }
+
+    #letters-guessed {
+        font-size: 12px;
+    }
+
+    #wrong-letters {
+        font-size: 24px;
+    }
+
+    #tries {
+        text-align: right;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+
+    #num-of-tries-remaining {
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(2, 180, 211);
+        color: white;
+        border: solid 1px white;
+        text-decoration:none;
+        font-size: 18px;
+        padding: 10px;
+        outline: none;
+        margin-right: 0;
+    }
+
+    .number {
+        width: 30px;
+        display: inline-block;
+    }
+
+    div#letters-guessed.col-12 {
+        text-align: center;
+    }
+
+    #letter-btns {
+        padding: 15px;
+    }
+
+    #alphabet {
+        text-align: center;
+        padding: 0;
+    }
+
+    #letter {
+        display: inline-block;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        border: solid 1px white;
+        text-decoration:none;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 10px;
+        height: 50px;
+        width: 50px;
+        margin: 3px;
+        outline: none;
+    }
+
+    #letter:hover{
+      background-color: rgb(2, 180, 211);
+      border: solid 1px white;
     }

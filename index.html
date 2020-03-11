@@ -19,36 +19,35 @@
 				<div class="col-12" id="instructions">
 					<span>Guess the word below</span>
 				</div>
+				<div class="col-12" id="play-btn">
+					<button type="button" class="btn btn-primary btn-lg" id="play">Play</button>
+				</div>
 			</div>
 			<div class="row justify-content-md-center">
-				<div class="col-lg-5 col-sm-12" id="left-col">
-					<div class="row justify-content-md-center">
-						<div class="col-8" id="letters-guessed">
-							LETTERS-GUESSED
-						</div>
-						<div class="col-4" id="tries-col">
-							<span id="num-of-tires-remaining"></span> 
-						</div>
-						<div class="col-12" id="letter-btns">
-							LETTERS
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-5 col-sm-12" id="right-col">
+				<div class="col-lg-6 col-sm-12" id="top-col">
 					<div class="col-12" id="category">
 						CATEGORY
 					</div>
-					<div class="col-12" id="hidden-word">
-						HIDDEN WORD
+					<div class="col-12" id="hidden-word">	
 					</div>
-					
 				</div>
 			</div>
-
 			<div class="row justify-content-md-center">
-				<div class="col-12" id="play-btn">
-					<button type="button" class="btn btn-primary btn-lg">Play Again</button>
+				<div class="col-lg-6 col-sm-12" id="bottom-col">
+					<div class="row justify-content-md-center">
+						<div class="col-6" id="letters-guessed">
+							INCORRECT LETTERS GUESSED:
+							<div id="wrong-letters"></div>
+						</div>
+						<div class="col-6" id="tries">
+							TRIES:
+							<div class="number" id="num-of-tries-remaining">
+							</div>
+						</div>
+						
+						<div class="col-12" id="letter-btns">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
